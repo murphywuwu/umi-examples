@@ -14,6 +14,7 @@ export default {
     {
       path: '/list',
       component: 'b',
+      /* 权限路由：生成非共享布局节点供/list节点使用 */
       Routes: ['./routes/PrivateRoute.js']
     },
     {
