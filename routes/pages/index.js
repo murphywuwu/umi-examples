@@ -1,3 +1,8 @@
+/**
+ * title: Index Page
+ * Routes:
+ *   - ./routes/PrivateRoute.js
+ */
 import Link from 'umi/link';
 
 export default () =>
