@@ -17,6 +17,7 @@ export default {
       Routes: ['./routes/PrivateRoute.js']
     },
     {
+      /* 路由重定向 */
       path: '/redirect',
       redirect: '/users/guanguan',
     },
