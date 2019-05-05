@@ -4,6 +4,7 @@ export default {
       antd: true,
     }],
   ],
+  /* 此配置项存在时，则不会对src/pages目录做约定式的解析 */
   routes: [
     {
       path: '/',
